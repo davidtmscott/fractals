@@ -1,7 +1,22 @@
 #!/usr/bin/env Rscript
 
+# ============================================================
+# Script Name: sierpinski.R
+# Description: Creates Sierpinski triangle through iterations of a simple rule
+# Author: David Scott
+# Created: 2018-01-29
+#
+# Usage:
+#   Rscript scripts/sierpinski_triangle.R
+#
+# Dependencies:
+#   - base R (no external packages required)
+#
+# Output:
+#   - 
+# ============================================================
 
-# function to create Sierpinski triangle (gasket) through iterations of a simple rule
+# create Sierpinski triangle (gasket) through iterations of a simple rule
 
 chaos_game <- function(){
   # create data frame of three initial points
