@@ -1,5 +1,22 @@
 #!/usr/bin/env Rscript
 
+# ============================================================
+# Script Name: fern.R
+# Description: Creates a tree like fractal using recursion 
+# Author: David Scott
+# Created: 2018-01-29
+#
+# Usage:
+#   Rscript scripts/fern.R
+#
+# Dependencies:
+#   - base R (no external packages required)
+#   - R/helpers.R (for turtle function)
+#
+# Output:
+#   - ../outputs/fern.png
+# ============================================================
+
 # load helper function
 source("../R/helpers.R")
 
@@ -18,6 +35,7 @@ fern <- function(start_position, direction, length, dir){
   } 
 }
 
+# save plot to outputs
 png("../outputs/fern.png", width = 400, height = 400)
 plot(-600, 600,axes = F, xlab = NA, ylab = NA, cex = 0.001)
 fern(start_position = c(-625, 350), direction = pi/2, length = 60, dir = -1)
