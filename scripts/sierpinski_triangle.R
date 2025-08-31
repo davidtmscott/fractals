@@ -56,5 +56,5 @@ df <- chaos_game(n=10000)
 
 # plot
 png("../outputs/sierpinski_triangle.png", width = 400, height = 400)
-plot(df, pch = 4, cex = 0.5)
+plot(df, pch = 4, cex = 0.5, axes = F, xlab = NA, ylab = NA,)
 dev.off()
