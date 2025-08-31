@@ -18,6 +18,7 @@ fern <- function(start_position, direction, length, dir){
   } 
 }
 
-
+png("../outputs/fern.png", width = 400, height = 400)
 plot(-600, 600,axes = F, xlab = NA, ylab = NA, cex = 0.001)
 fern(start_position = c(-625, 350), direction = pi/2, length = 60, dir = -1)
+dev.off()
