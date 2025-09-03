@@ -2,7 +2,7 @@
 
 # ============================================================
 # Script Name: fern.R
-# Description: Creates a tree like fractal using recursion 
+# Description: Creates a fern like fractal using recursion 
 # Author: David Scott
 # Created: 2018-01-29
 #
